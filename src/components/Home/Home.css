@@ -1,0 +1,39 @@
+#menuBox {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#homeList {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#homeTabs {
+    text-align: center;
+}
+
+#homeList ul {
+    text-align: center;
+}
+
+#homeList li {
+    margin-left: 0px;
+    color: white;
+    background-color: black;
+    /*display: inline-block;*/
+    justify-content: center;
+    border: 5px solid white;
+    width: 350px;
+    margin: 0 10px 0 10px;
+    border-radius: 25px;
+
+    margin: 20px;
+
+
+    /*float: left;*/
+}
