@@ -19,8 +19,7 @@ const App = () => {
             <Header />
             <br />
             <br />
-            <br />
-            <div className = "start">
+            <div id = "start">
                 <RouterPath />
             </div>
             <IconsSite />

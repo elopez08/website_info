@@ -9,38 +9,44 @@ import './Home.css'
 const Home = () => {
     return (
         <div id="menuBox">
-            <h1>
-                Home Page.
-            </h1>
+            <div id= "homeTitle">
+                <h1>
+                    Merable's Information.
+                </h1>
+            </div>
             <br />
-            <p>Welcome to Merable's First Site!  Currently, this is under construction, but I hope this suffices in guiding you through my basic information!  Please, click on the links either above or below to be guided on the page info.</p>
-            <ul className = "listTabs" id = "homeList">
-                <li className="nav-item active" id = "homeTabs">
+            <div id = "homePara">
+                <p>Welcome to Merable's First Site!  Currently, this is under construction, but I hope this suffices in guiding you through my basic information!  Please, click on the links either above or below to be guided on the page info.</p>
+            </div>
+            <div id = "homeList">
+                <ul className = "listTabs" id = "homeList">
                     <Link className="nav-link" to="/">
-                        Home
+                        <li className="nav-item active" id = "homeTabs">
+                                Home
+                        </li>
                     </Link>
-                </li>
-                <li className="nav-item active" id = "homeTabs">
                     <Link className="nav-link" to="/About">
-                        About
+                        <li className="nav-item active" id = "homeTabs">
+                                About
+                        </li>
                     </Link>
-                </li>
-                <li className="nav-item active" id = "homeTabs">
                     <Link className="nav-link" to="/Twitter">
-                        Twitter
+                        <li className="nav-item active" id = "homeTabs">
+                                Twitter
+                        </li>
                     </Link>
-                </li>
-                <li className="nav-item active" id = "homeTabs">
                     <Link className="nav-link" to="/Twitch">
-                        Twitch
+                        <li className="nav-item active" id = "homeTabs">
+                                Twitch
+                        </li>
                     </Link>
-                </li>
-                <li className="nav-item active" id = "homeTabs">
                     <Link className="nav-link" to="/Questions">
-                        Questions
+                        <li className="nav-item active" id = "homeTabs">
+                                Questions
+                        </li>
                     </Link>
-                </li>
-            </ul>
+                </ul>
+            </div>
         </div>
 
     )

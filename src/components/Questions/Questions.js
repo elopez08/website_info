@@ -3,10 +3,14 @@ import './Questions.css';
 
 const Questions = () => {
     return (
-        <>
-            <h1>This is a default hold.</h1>
-            <p>This is still in production.  In the future, you'll be able to shoot me up a message and I'll try to answer it!</p>
-        </>
+        <div id="questionsInfo">
+            <div id = "header">
+                <h1>This is a default hold.</h1>
+            </div>
+            <div id = "para">
+                <p>This is still in production.  In the future, you'll be able to shoot me up a message and I'll try to answer it!</p>
+            </div>
+        </div>
 
     )
 }

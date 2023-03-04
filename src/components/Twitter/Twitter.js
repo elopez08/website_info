@@ -5,13 +5,16 @@ import Twitter_Icon from './img/Twitter_Icon.png';
 
 const Twitter = () => {
     return (
-        <>
-            <h1>This is the page for the Twitter link.</h1>
+        <div id = "twitterInfo">
+            <div id ="header">
+                <h1>This is the page for the Twitter link.</h1>
+            </div>
             <img src = {Twitter_Icon} alt="Twitter"/>
-            <p>I have Twitter!  Follow me at: </p>
-            <p>@MDawnspark</p>
-        </>
-
+            <div id = "para">
+                <p>I have Twitter!  Follow me at: </p>
+                <a href = "https://twitter.com/MDawnspark">@MDawnspark</a>
+            </div>
+        </div>
     )
 }
 

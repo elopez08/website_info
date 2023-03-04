@@ -1,31 +1,6 @@
-
-nav {
-    justify-content: center;
-}
-
 nav h1 {
     text-align: center;
     height: 100%;
-}
-
-nav ul {
-    text-align: center;
-    list-style-type: none;
-    /*display: inline-block;*/
-}
-
-nav ul li {
-    margin-left: 0px;
-    color: white;
-    background-color: black;
-    display: inline-block;
-    border: 5px solid gold;
-    width: 150px;
-    height: 3vh;
-    margin: 0 10px 0 10px;
-
-
-    /*float: left;*/
 }
 
 nav a {
